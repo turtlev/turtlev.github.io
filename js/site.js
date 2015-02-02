@@ -67,7 +67,9 @@ $(document).ready(function() {
 
 
   	init();
-	smoothScroll.init();
+	smoothScroll.init({
+		offset: -2	
+	});
 	carouselFader();
 
 });
