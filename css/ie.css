@@ -1,0 +1,26 @@
+/* ------------------------------------------
+  IE STYLES & FIXES
+--------------------------------------------- */
+
+
+.hero-overlay {
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+}
+
+
+/*fix flexbox box-sizing bug on IE 10,11*/
+/*620px*/
+@media only screen and (max-width: 41.25em) {
+	.two-thirds,
+	.one-half {
+		
+		
+		-webkit-flex-basis: calc(100% - 2em);
+	
+    	flex-basis: calc(100% - 2em);
+
+		
+		
+	}
