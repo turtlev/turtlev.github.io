@@ -26,8 +26,9 @@ section + section {
 .hero img {
 	display: block;
 	text-align: center;
-	max-width: 100%;
-	margin: 0.75rem auto 0;
+	max-width: 500px;
+	max-height: 100%;
+	margin: 0.75rem auto 5rem auto;
 }
 .carousel {
 	position: relative;
@@ -181,7 +182,7 @@ footer h6, footer h5 {
 /* Larger than phablet */
 @media (min-width: 550px) {
 	#contact {
-		min-height: 420px;			
+		min-height: 340;			
 	}
 	
 /* Larger than tablet */
