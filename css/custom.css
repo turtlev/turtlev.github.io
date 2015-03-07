@@ -92,6 +92,10 @@ section + section {
         height: 100%;
 }
 
+.prettyLinks {
+        text-decoration: none;
+}
+
 footer {
 	background-color: #222;
 	color: #fff;
